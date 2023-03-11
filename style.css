@@ -1,0 +1,94 @@
+body{
+    background-color:rgb(173, 224, 243)
+}
+
+#main{
+    max-width: 1280px;
+    max-height: 100%;
+    margin: 30px auto;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Lato','Georgia','Times New Roman',serif;
+    font-size: 28.5px;
+    font-style: italic;
+    text-shadow: 2px 2px 8px #327792;
+}
+
+#intro h2{
+    text-align: center;
+    font-family: 'Lato','Georgia','Times New Roman',serif;
+    font-size: 30px;
+    font-style: italic;
+}
+
+#intro > p {
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family:'Lato','Georgia','Times New Roman',serif;
+    font-size: 19.5px;
+}
+
+#early-life > h2{
+    text-align: center;
+    font-family: 'Lato','Georgia','Times New Roman',serif;
+    font-size: 30px;
+    font-style: italic;
+}
+
+#early-life > p {
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family:'Lato','Georgia','Times New Roman',serif;
+    font-size: 19.5px;
+}
+
+#career > h2{
+    text-align: center;
+    font-family: 'Lato','Georgia','Times New Roman',serif;
+    font-size: 30px;
+    font-style: italic;
+}
+
+#career > p {
+    text-align: center;
+    max-width: 1300px;
+    margin: 0 auto;
+    font-family:'Lato','Georgia','Times New Roman',serif;
+    font-size: 19.5px;
+}
+
+#career > ol li {
+    list-style: none;
+    text-align: center;
+    max-width: 1300px;
+    margin: 0 auto;
+    font-family:'Lato','Georgia','Times New Roman',serif;
+    font-size: 22.5px;
+}
+
+#legacy > h2{
+    text-align: center;
+    text-align: center;
+    font-family: 'Lato','Georgia','Times New Roman',serif;
+    font-size: 30px;
+    font-style: italic;
+}
+
+#legacy > p {
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family:'Lato','Georgia','Times New Roman',serif;
+    font-size: 19.5px;;
+}
+
+#footer{
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family:'Lato','Georgia','Times New Roman',serif;
+    font-size: 20px;
+}
