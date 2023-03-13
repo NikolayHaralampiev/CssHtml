@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="container">
+        <header>Registration Form</header>
+        <form action="#" class="form">
+            <div class="input-box">
+                <label>Full Name</label>
+                <input type="text" placeholder="Enter full name">
+            </div>
+
+            <div class="input-box email">
+                <label>Email Address</label>
+                <input type="text" placeholder="Enter email address">
+            </div>
+
+            <div class="input-box phoneNumber">
+                <label>Pnone Number</label>
+                <input type="number" placeholder="Enter pnone number">
+            </div>
+
+            <div class="input-box birthDate">
+                <label>Birth Date</label>
+                <input type="date" placeholder="Enter birth date">
+            </div>
+
+            <div class="gender-box">
+                <div class="gender">
+                    <input type="radio" id="check-male" name="gender" checked />
+                    <label for="check-male">Male</label>
+                </div>
+
+                <div class="gender">
+                    <input type="radio" id="check-female" name="gender">
+                    <label for="check-female">Female</label>
+                </div>
+            </div>
+
+            <div class="input-box address">
+                <label>Address</label>
+                <input type="text" placeholder="Enter your address" required>
+
+                <div class="country">
+                    <div class="select-box">
+                        <select>
+                            <option hidden>Country</option>
+                            <option>USA</option>
+                            <option>Japan</option>
+                            <option>Greece</option>
+                            <option>Bulgaria</option>
+                            <option>Romania</option>
+                            <option>Brazil</option>
+                        </select>
+                    </div>
+                    <input type="text" placeholder="Enter your city" required>
+                </div>
+
+                <div class="postal-code">
+                    <input type="number" placeholder="Enter your postal code" required>
+                </div>
+            </div>
+            <button>Submit</button>
+        </form>
+    </section>
+</body>
+</html>
